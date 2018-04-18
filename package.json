@@ -1,10 +1,24 @@
 {
+    "name": "vue-pug-sass-ts-proj",
+    "version": "1.0.0",
+    "description": "以下の環境をサポートするボイラープレートです * [Vue](https://jp.vuejs.org/) * [pug](https://pugjs.org/) * [sass](http://sass-lang.com/) * [TypeScript](https://www.typescriptlang.org/) * [Buefy](https://buefy.github.io)",
+    "main": "webpack.addpage.babel.js",
     "scripts": {
         "clean": "./scripts.sh clean",
         "build": "./scripts.sh build",
         "dev": "./scripts.sh dev",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/it-brown/vue-pug-sass-ts-proj.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/it-brown/vue-pug-sass-ts-proj/issues"
+    },
+    "homepage": "https://github.com/it-brown/vue-pug-sass-ts-proj#readme",
     "dependencies": {
         "@types/node": "^9.6.1",
         "babel": "^6.23.0",
@@ -40,6 +54,5 @@
         "webpack-cli": "^2.0.13",
         "webpack-dev-server": "^3.1.1"
     },
-    "devDependencies": {
-    }
+    "devDependencies": {}
 }
